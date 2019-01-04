@@ -19,11 +19,13 @@ h6 {
   background-color: #eee;
   border-right: 0.1em solid #eee;
   border-radius: 0 0 1em 0;
+  padding: 0.25em;
 }
 
 #sticky-bar img {
-  max-width: 3em;
+  max-width: 2em;
   height: auto;
+  margin: 0.25em;
 }
 
 header,
@@ -33,7 +35,6 @@ footer {
 
 header h1 {
   margin: 0;
-  font-family: cursive;
 }
 
 header img {
