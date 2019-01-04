@@ -2,15 +2,13 @@
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     grid-template-rows: auto;
 }
 
 .project {
     cursor: pointer;
-    min-width: 10em;
-    min-height: 10em;
-    padding: 1em;
+    padding: 0.25em;
 
     transform: scale(1);
     transition: 0.1s ease-in;
@@ -26,12 +24,19 @@
 
 .project h4 {
     text-transform: uppercase;
-    opacity: 0;
+    white-space: nowrap;
     margin: 0;
+    font-size: 3vw;
 }
 
 .project img {
     border-radius: 1em;
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (min-width: 800px) {
+    .project h4 {
+        font-size: 24px;
+    }
 }
