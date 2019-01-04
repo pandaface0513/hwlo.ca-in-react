@@ -24,10 +24,19 @@
 
 .project h4 {
     text-transform: uppercase;
+    white-space: nowrap;
+    margin: 0;
+    font-size: 3vw;
 }
 
 .project img {
     border-radius: 1em;
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (min-width: 800px) {
+    .project h4 {
+        font-size: 24px;
+    }
 }

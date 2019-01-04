@@ -28,7 +28,7 @@ class Header extends Component {
         return(
             <header>
                 <img src={this.state.headshot} alt="headshot"/>
-                <h2>{this.state.name}</h2>
+                <h1>{this.state.name}</h1>
                 <p>{this.state.tagline}</p>
                 <hr />
             </header>

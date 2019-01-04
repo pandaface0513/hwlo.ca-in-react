@@ -1,6 +1,7 @@
 .App {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
+  font-size: 20px;
 }
 
 h1,
@@ -30,8 +31,9 @@ footer {
     padding: 1em;
 }
 
-header h2 {
+header h1 {
   margin: 0;
+  font-family: cursive;
 }
 
 header img {
@@ -40,11 +42,11 @@ header img {
 }
 
 #root[theme=light] {
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #222;
 }
 
 #root[theme=dark] {
-  background-color: black;
-  color: white;
+  background-color: #222;
+  color: #ddd;
 }
