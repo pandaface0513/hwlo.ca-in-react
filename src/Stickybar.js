@@ -27,10 +27,8 @@ class Stickybar extends Component {
         let img = this.state.lightbulb ? Lightbulb : Darkbulb;
 
         return (
-            <div id="sticky-bar">
-                <button onClick={this.lightbulbClick}>
-                    <img src={img} alt={img}/>
-                </button>
+            <div id="sticky-bar" onClick={this.lightbulbClick}> 
+                <img src={img} alt={img}/>
             </div>
         )
     }
