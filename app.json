@@ -1,5 +1,5 @@
 {
-    "headshot": "http://hwlo.ca/images/henry.jpg",
+    "headshot": "images/henry.jpg",
     "name": "Henry Lo",
-    "tagline": "web dev, app dev, VR dev, learning React and Vue, graduated from SIAT at SFU, looking to build a great product with you"
+    "tagline": "web dev, app dev, VR dev, learning <button data-rh='This site was made with react &hearts;'>React</button> and Vue, graduated from SIAT at SFU, looking to build a great product with you"
 }

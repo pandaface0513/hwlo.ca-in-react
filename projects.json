@@ -3,49 +3,49 @@
         {
             "id": 0,
             "name": "FUT 19 Companion",
-            "image": "http://hwlo.ca/images/thumbnails/fifa.jpg",
+            "image": "images/thumbnails/fifa.jpg",
             "url": "",
             "description": ""
         },
         {
             "id": 1,
             "name": "Farmooo",
-            "image": "http://hwlo.ca/images/thumbnails/farmoo.png",
+            "image": "images/thumbnails/farmoo.png",
             "url": "",
             "description": ""
         },
         {
             "id": 2,
             "name": "Cleebo Casino",
-            "image": "http://hwlo.ca/images/thumbnails/cleebo.jpg",
+            "image": "images/thumbnails/cleebo.jpg",
             "url": "",
             "description": ""
         },
         {
             "id": 3,
             "name": "Anatroc",
-            "image": "http://hwlo.ca/images/thumbnails/anatroc.png",
+            "image": "images/thumbnails/anatroc.png",
             "url": "",
             "description": ""
         },
         {
             "id": 4,
             "name": "AFK Symposium",
-            "image": "http://hwlo.ca/images/thumbnails/afk.png",
+            "image": "images/thumbnails/afk.png",
             "url": "",
             "description": ""
         },
         {
             "id": 5,
             "name": "Instream",
-            "image": "http://hwlo.ca/images/thumbnails/instream.png",
+            "image": "images/thumbnails/instream.png",
             "url": "",
             "description": ""
         },
         {
             "id": 6,
             "name": "Blocky",
-            "image": "http://hwlo.ca/images/thumbnails/visualizer.png",
+            "image": "images/thumbnails/visualizer.png",
             "url": "",
             "description": ""
         },
@@ -59,7 +59,7 @@
         {
             "id": 8,
             "name": "Notif",
-            "image": "http://hwlo.ca/images/thumbnails/notif.png",
+            "image": "images/thumbnails/notif.png",
             "url": "",
             "description": ""
         }
