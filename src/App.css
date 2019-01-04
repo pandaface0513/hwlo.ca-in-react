@@ -10,12 +10,23 @@ h4,
 h5,
 h6 {
   font-family: 'Staatliches', cursive;
+  font-weight: normal;
+}
+
+#sticky-bar {
+  position: fixed;
+  background-color: #eee;
+  border-right: 0.1em solid #eee;
+  border-radius: 0 0 1em 0;
+}
+
+#sticky-bar img {
+  max-width: 3em;
+  height: auto;
 }
 
 header,
 footer {
-    width: 80%;
-    margin: 0 auto;
     padding: 1em;
 }
 
@@ -26,4 +37,14 @@ header h2 {
 header img {
     border-radius: 1em;
     width: 5em;
+}
+
+#root[theme=light] {
+  background-color: white;
+  color: black;
+}
+
+#root[theme=dark] {
+  background-color: black;
+  color: white;
 }

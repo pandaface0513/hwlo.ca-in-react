@@ -48,6 +48,20 @@
             "image": "http://hwlo.ca/images/thumbnails/visualizer.png",
             "url": "",
             "description": ""
+        },
+        {
+            "id": 7,
+            "name": "This Site",
+            "image": "",
+            "url": "",
+            "description": ""
+        },
+        {
+            "id": 8,
+            "name": "Notif",
+            "image": "http://hwlo.ca/images/thumbnails/notif.png",
+            "url": "",
+            "description": ""
         }
     ]
 }
