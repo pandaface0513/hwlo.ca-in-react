@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
-
 import './grid.css';
+import Project from './Project';
+import Panel from './Panel';
 
 class Content extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            projects: []
+            projects: [],
+            currentProject: null
         };
+
+        this.handleProjectClick = this.handleProjectClick.bind(this);
+    }
+
+    handleProjectClick(selectedProject) {
+        if (this.state.currentProject !== selectedProject) {
+            this.setState({currentProject: selectedProject});
+        }
     }
 
     componentDidMount() {
@@ -21,23 +31,19 @@ class Content extends Component {
         }).catch((error) => { console.log('Fetch Error :-S', error)});
     }
 
-    componentDidUpdate(oldProps) {
-
-    }
-
     render() {
         let projects = this.state.projects;
         let projectList = projects.map((project) => { 
-            return <div key={project.name} className="project">
-                        <img src={project.image} alt={project.name}/>
-                        <h4>{project.name}</h4>
-                    </div>;
+            return <Project key={project.name} data={project} handleProjectClick={this.handleProjectClick}/>;
         });
 
         return(
-            <div id="projects-container">
-                {projectList}
-            </div>
+            <React.Fragment>
+                <div id="projects-container">
+                    {projectList}
+                </div>
+                <Panel project={this.state.currentProject}/>
+            </React.Fragment>
         );
     }
 }

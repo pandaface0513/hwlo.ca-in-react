@@ -5,63 +5,112 @@
             "name": "FUT 19 Companion",
             "image": "images/thumbnails/fifa.jpg",
             "url": "",
-            "description": ""
+            "details": ""
         },
         {
             "id": 1,
-            "name": "Farmooo",
+            "name": "Farmoo",
             "image": "images/thumbnails/farmoo.png",
             "url": "",
-            "description": ""
+            "details": {
+                "title": "FARMOO - A VIRTUAL REALITY PAIN DISTRACTION",
+                "image": "images/projects/farmoo/farm.PNG",
+                "sections": [
+                    {
+                        "title": "Design Concept:",
+                        "text": "The goal of Farmoo is to gamify the pain distraction experience for hospital patients in bed, particularly focusing on teenagers suffering from cancer. Since games are usually targeted as a means of entertainment, the team wants to provide a project aimed at the non-entertainment level by providing meaningful value within the game and virtual reality (VR) industry. Pain has been researched mostly with adults in comparison to teenagers and those who are younger. After harsh chemotherapy treatments, patients often experience pain and boredom when they are stuck in bed, where discomfort can be more extreme at a younger age."
+                    },
+                    {
+                        "text": "Cancer patients require more care in comparison to patients with other serious illnesses due to the sickness impacts both physical and psychosocial aspects of the patient’s wellbeing. With a set audience in mind, the vision is to create a first-person farm life simulation game with a cute animal companion. Here, constant distraction can drive the pain away. The team hopes that the implicit metaphor of life can spark hope into cancer patient’s mind."
+                    },
+                    {
+                        "text": ""
+                    },
+                    {
+                        "title": "Blog Post Link:",
+                        "text": "https://teamsiatheroes.wordpress.com/"
+                    },
+                    {
+                        "title": "My roles in Farmoo",
+                        "text": "In Farmoo, I took on the role of the lead programmer, Unity3D engineer as well as game designer. As my partner Janice Ng was inexperience in Unity development, I let her handle the asset creations and technical writings. While I was in charge of building the world in Unity as well as programming game mechanics. As my first experience working with Oculus Rift and Leap Motion, I found that the difficulty bar raises up drastically when new tools are introduced. I was able to get both devices working with the Unity world, however it took far longer than I expected. As of this stage in development, the player will be able to navigate the farm game world we hand-crafted, and enjoy simple game-play in our rapid prototype. Moving forward, We would like to get feedback from the health workers, and ultimately from the cancer patients (target audience) to eliminate flaws and misconceptions in our game concept. I imagine optimization be vital in this application, as low frame-rates will induce unpleasant dizziness to our players in an virtual reality environment."
+                    },
+                    {
+                        "title": "Outcome",
+                        "text": "Farmoo is still an on-going project. Check back again in later time for updates!"
+                    }
+                ]
+            }
         },
         {
             "id": 2,
             "name": "Cleebo Casino",
             "image": "images/thumbnails/cleebo.jpg",
             "url": "",
-            "description": ""
+            "details": ""
         },
         {
             "id": 3,
             "name": "Anatroc",
             "image": "images/thumbnails/anatroc.png",
             "url": "",
-            "description": ""
+            "details": ""
         },
         {
             "id": 4,
             "name": "AFK Symposium",
             "image": "images/thumbnails/afk.png",
             "url": "",
-            "description": ""
+            "details": ""
         },
         {
             "id": 5,
             "name": "Instream",
             "image": "images/thumbnails/instream.png",
             "url": "",
-            "description": ""
+            "details": {
+                "title": "INSTREAM - GRID LIKE SOCIAL FEED",
+                "image": "images/projects/instream.png",
+                "sections": [
+                    {
+                        "title": "Design Concept:",
+                        "text": "This website was a side-project done with a friend. We wanted to create a new way to receive information. In nowadays, social news feed flood our devices every minute and it is hard to filter out the ones we need. So why not have an universal view to look at all your feeds in a grid layout."
+                    },
+                    {
+                        "text": "The search function will help you filter out the feed by hash tags. These hash tags are user-created to the photos. InStream aims to be as user intuitive as possible, user interactions are as simple as type and photos will appear."
+                    },
+                    {
+                        "title": "Tools Used:",
+                        "text": "HTML5, CSS3, JavaScript, JQuery, Material Design, Instagram API, RESTful web service"
+                    }
+                ]
+            }
         },
         {
             "id": 6,
             "name": "Blocky",
             "image": "images/thumbnails/visualizer.png",
             "url": "",
-            "description": ""
+            "details": {
+                "title": "BLOCKY - MUSIC VISUALIZER",
+                "image": "images/projects/visualizer.PNG",
+                "sections": [
+                    {
+                        "title": "Design Concept:",
+                        "text": "This website is for a school group project. The project was to create a music visualizer in a 3D environment. The concept is have an array of blocks floating in space and dance to the music being played in the background. The website features a full-screen 3D rendering. It might take awhile to load up, and once it loads the result will amaze you! Shout out to Vivian=V+Ion who did the music, http://www.reverbnation.com/vivianvion"
+                    },
+                    {
+                        "title": "Tools Used:",
+                        "text": "HTML5 CSS3 JavaScript JQuery WebGL Three.js Vivian=V+Ion's music"
+                    }
+                ]
+            }
         },
         {
             "id": 7,
-            "name": "This Site",
-            "image": "",
-            "url": "",
-            "description": ""
-        },
-        {
-            "id": 8,
             "name": "Notif",
             "image": "images/thumbnails/notif.png",
             "url": "",
-            "description": ""
+            "details": ""
         }
     ]
 }
