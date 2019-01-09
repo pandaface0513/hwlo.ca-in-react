@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hwlo.ca-in-react/precache-manifest.c2622b6dc2258b5771c2a52b0ce0221e.js"
+  "/hwlo.ca-in-react/precache-manifest.7aeb28cb3c4e346c5b543ea882971419.js"
 );
 
 workbox.clientsClaim();
