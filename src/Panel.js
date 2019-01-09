@@ -12,7 +12,7 @@ class Panel extends Component {
     }
 
     componentDidUpdate() {
-        document.getElementById("details-panel").scrollIntoView();
+        document.getElementById("details-panel").scrollIntoView({ behavior: 'smooth', block: 'start', inline: "nearest" });
     }
 
     componentWillUpdate(nextProps) {
