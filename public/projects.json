@@ -2,16 +2,35 @@
     "projects": [
         {
             "id": 0,
-            "name": "FUT 19 Companion",
+            "name": "FUT19 Companion",
             "image": "images/thumbnails/fifa.jpg",
-            "url": "",
-            "details": ""
+            "details": {
+                "title": "FUT19 Companion App",
+                "image": "",
+                "sections": [
+                    {
+                        "title": "Project description",
+                        "text" : "- Coming soon -"
+                    },
+                    {
+                        "title": "My role in FUT19 Companion App",
+                        "text" : "- Coming soon -"
+                    },
+                    {
+                        "title": "Challenges",
+                        "text" : "- Coming soon -"
+                    },
+                    {
+                        "title": "Offical link",
+                        "link": "https://www.easports.com/fifa/ultimate-team/fut-app"
+                    }
+                ]
+            }
         },
         {
             "id": 1,
             "name": "Farmoo",
             "image": "images/thumbnails/farmoo.png",
-            "url": "",
             "details": {
                 "title": "FARMOO - A VIRTUAL REALITY PAIN DISTRACTION",
                 "image": "images/projects/farmoo/farm.PNG",
@@ -24,11 +43,11 @@
                         "text": "Cancer patients require more care in comparison to patients with other serious illnesses due to the sickness impacts both physical and psychosocial aspects of the patient’s wellbeing. With a set audience in mind, the vision is to create a first-person farm life simulation game with a cute animal companion. Here, constant distraction can drive the pain away. The team hopes that the implicit metaphor of life can spark hope into cancer patient’s mind."
                     },
                     {
-                        "text": ""
+                        "text": "- Coming soon -"
                     },
                     {
                         "title": "Blog Post Link:",
-                        "text": "https://teamsiatheroes.wordpress.com/"
+                        "link": "https://teamsiatheroes.wordpress.com/"
                     },
                     {
                         "title": "My roles in Farmoo",
@@ -45,28 +64,100 @@
             "id": 2,
             "name": "Cleebo Casino",
             "image": "images/thumbnails/cleebo.jpg",
-            "url": "",
-            "details": ""
+            
+            "details": {
+                "title": "Cleebo Casino - Free-to-Play Social Casino",
+                "image": "images/projects/cleebo21.jpg",
+                "sections": [
+                    {
+                        "title": "Project Description",
+                        "text": "Cleebo Casino is an online Free-to-Play social casino available to play on Facebook. Cleebo Casino provides players with the unique experience of playing their favourite casino games against a real live dealer located in Las Vegas. While a number of existing products allow players the same experience, Cleebo Casino is the first to provide this service as a Free-to-Play platform."
+                    },
+                    {
+                        "text": "As Cleebo Casino is a Free-to-Play game a large portion of the project was focused on the development and implementation of social features. These features were intended to help distinguish Cleebo from its competitors, while also creating a sense of community between the players and even the live dealer."
+                    },
+                    {
+                        "title": "My role in Cleebo",
+                        "text": "- Coming soon -"
+                    },
+                    {
+                        "title": "Offical site",
+                        "link": "http://cleebo.com"
+                    }
+                ]
+            }
         },
         {
             "id": 3,
             "name": "Anatroc",
             "image": "images/thumbnails/anatroc.png",
-            "url": "",
-            "details": ""
+            "details": {
+                "title": "ANATROC - A VIRTUAL REALITY PUZZLE ADVENTURE",
+                "image": "images/projects/anatroc.png",
+                "sections": [
+                    {
+                        "title": "Design Concept:",
+                        "text": "Anatroc is an immersive virtual reality puzzle adventure created for the Archiact Interactive Global Game Jam. Designed to test player's exploration skills, visual memory, and navigation skills as players explore the winding pathways of the maze. Decipher clues to uncover hidden pathways and perhaps even an exit. The original design of Anatroc was to create an immersive virtual reality experiences with two players cooperating with one another. To achieve this, the team researched the existing titles for Google Cardboard virtual reality headset. We found out that while there are a few PvP multiplayer games exist, but there were no cooperative multiplayer virtual reality titles available. We wanted to design Anatroc as the first cooperative multiplayer virtual reality experiences."
+                    },
+                    {
+                        "text": "In its completion, Anatroc became a first person maze exploration game with both players taking unique roles. One player would take on the role of the maze avatar and would be forced to navigate the game's maze. The other player would take on the role of the first player's navigational AI. This player cannot move but has full access to a map of the maze. This map displays both players' locations and maze's doors and exit. Anatroc's gameplay will be formed through verbal communication between the two players in order to complete the maze. Both players are required to exchange clues in order to proceed in game levels. For example, the maze player will communicate a hint back to the AI player, for the AI player to unlock hidden doorways for maze player to explore. This game concept is based on numerous real-life escape room games in Vancouver, which I have personally researched on."
+                    },
+                    {
+                        "title": "My roles in Anatroc",
+                        "text": "In Anatroc, I took on the role of the lead programmer. For my first step in developing the game, I started to experiment with the Google Cardboard SDK with Unity. I was responsible for majority of the game mechanics found in the maze. This includes but not limited to the movement mechanic, ray-casting mechanic, real-time minimap mechanic. I also used the scene loader to minimize the loads the device has to do. The experience was very valuable, as I learned in the progress, that it is much different to to design a game for desktop versus design a game for mobile. As mobile devices are not as powerful or as resourceful traditional computers, virtual reality games for mobile requires much delicate attentions to details. I spent several days finding ways to optimize Anatroc to run in reasonable framerates for mobile phones. I also worked with another programer in collaboration to create the virtual reality experiences."
+                    },
+                    {
+                        "title": "Outcome",
+                        "text": "As a result Anatroc was selected as one of the 20 game jam finalists from over 100 individual submissions. We also finished in 4th place in the 'player's choice' voting portion of the contest. In reflection I maintain that it was the right decision to redesign Anatroc as a single player game given the time constraints. However, our team agree that Anatroc would have been a much more interesting and immersive experience with the multiplayer gameplay aspect intact. In summary I felt that competing in this game jam was a valuable experience in learning to design in virtual reality, and also in completing a project under a strict deadline. Perhaps it would be worth while to reapproach it."
+                    },
+                    {
+                        "title": "Store page link:",
+                        "link": "https://play.google.com/store/apps/details?id=ca.AFKME.Anatroc"
+                    }
+                ]
+            }
         },
         {
             "id": 4,
             "name": "AFK Symposium",
             "image": "images/thumbnails/afk.png",
-            "url": "",
-            "details": ""
+            "details": {
+                "title": "AFK - GAME DEVELOPMENT SYMPOSIUM",
+                "image": "images/projects/afk.png",
+                "sections": [
+                    {
+                        "title": "Design Concept:",
+                        "text": "The AFK (Away From Keyboard) game development symposium is an event designed to provide a platform for passionate SIAT undergraduates with game design focus to showcase their work to an industry audience. Throughout the school term, students were encouraged to submit their game projects to one of the four event categories: Narrative, Immersion, Artificial Intelligence, Level Design"
+                    },
+                    {
+                        "text": "From each category, one project was selected as representative in front of a panel of four Vancouver games industry judges, as well as the attendees mixed of students, industry professionals and school faculty members. The attendees were also invited to the post-event mixer for a chance to network with the local game industry professionals and jumpstart their careers. In addition to student projects, AFK symposium also featured two talks delivered by SIAT PhD faculty. The postgraduate talks focused on academic researches involving expanding video games beyond traditional entertainments."
+                    },
+                    {
+                        "title": "My roles in AFK",
+                        "text": "In both planning and running the event, I took on the role of event planner and technology officer. I was approached by Sean Warwick, who initialized the idea to create AFK based on TouchPoint, a similar design conference held at SFU focusing on user experience design. I joined the AFK organization committee as I was fond of the idea to give back to the university and provide a platform to assist newcomers in the program. I was involved in choosing of representatives from each category and provided comments and assisted presenters on how to present during the event to ensure the highest quality possible. On the day of the event, I was in charged of technology equipments required for the conference - that includes and not limited to, making sure the selected projects will operate fine on the projectors, the amount of microphones and the sound and lighting of the venue."
+                    },
+                    {
+                        "title": "Outcome",
+                        "text": "Overall, I believe the AFK organization committee did great. Considering that it was our first iteration of the event, it was highly successful. We had a total of 110 tickets sold, with roughly 70 attendees attending the day of the event. The panelists included representatives from successful studios including: East Side Games, Roadhouse Interactive, Relic Entertainment, IUGO Mobile Entertainment. We were also happy to feature an opening talk by Dave Fracchia from the Centre of Digital Media. Perks for attendees included door prizes totaling $175 in value as well as catered breakfast, lunch and dinner."
+                    },
+                    {
+                        "text": "Due to the highly positive reception, the SIAT event planning staffs plan to continue partnership with us to develop AFK into an annual event with full support. To ensure that the event remains a student led initiative, we have invited some of the presenters to take over as next year's organization committee. I will instead take on a supporting mentor role to provide guidance when needed."
+                    },
+                    {
+                        "title": "AFK Website",
+                        "link": "http://afk.iat.sfu.ca"
+                    },
+                    {
+                        "title": "Eventbrite Page",
+                        "link": "http://www.eventbrite.ca/e/afk-siat-game-development-symposium-tickets-14285405031"
+                    }
+                ]
+            }
         },
         {
             "id": 5,
             "name": "Instream",
             "image": "images/thumbnails/instream.png",
-            "url": "",
             "details": {
                 "title": "INSTREAM - GRID LIKE SOCIAL FEED",
                 "image": "images/projects/instream.png",
@@ -89,14 +180,14 @@
             "id": 6,
             "name": "Blocky",
             "image": "images/thumbnails/visualizer.png",
-            "url": "",
             "details": {
                 "title": "BLOCKY - MUSIC VISUALIZER",
                 "image": "images/projects/visualizer.PNG",
                 "sections": [
                     {
                         "title": "Design Concept:",
-                        "text": "This website is for a school group project. The project was to create a music visualizer in a 3D environment. The concept is have an array of blocks floating in space and dance to the music being played in the background. The website features a full-screen 3D rendering. It might take awhile to load up, and once it loads the result will amaze you! Shout out to Vivian=V+Ion who did the music, http://www.reverbnation.com/vivianvion"
+                        "text": "This website is for a school group project. The project was to create a music visualizer in a 3D environment. The concept is have an array of blocks floating in space and dance to the music being played in the background. The website features a full-screen 3D rendering. It might take awhile to load up, and once it loads the result will amaze you! Shout out to Vivian=V+Ion who did the music",
+                        "link": "http://www.reverbnation.com/vivianvion"
                     },
                     {
                         "title": "Tools Used:",
@@ -109,8 +200,22 @@
             "id": 7,
             "name": "Notif",
             "image": "images/thumbnails/notif.png",
-            "url": "",
-            "details": ""
+            "details": {
+                "title": "NOTIF CONCEPT MAPPING TOOL",
+                "image": "images/projects/notif.png",
+                "sections": [
+                    {
+                        "title": "Design Concept:",
+                        "text": "This was a group project for a course that taught user-centred design and software design and development methods. In our team of four, we conceptualized and created a prototype for Notif, a concept mapping tool targeted towards the academic teaching and learning domain. We decided to do our prototype in Flash."
+                    },
+                    {
+                        "text": "What notably sets this apart from existing brainstorming / mind-mapping tools is that, for student collaborators, it supports real-time collaboration, and suggests connections between concepts based on the similarities between them. For mentors, such as course instructors, they have the ability to allow students to upload their concept maps to a central folder; our application may aggregate and view a list of the most used connections between concepts, and additionally mass publish feedback to students with those connection patterns."
+                    },
+                    {
+                        "text": "The design and functionality of our tool was heavily use-case and scenario drive. My main role within the project was implementing the prototype and to conduct the user-studies."
+                    }
+                ]
+            }
         }
     ]
 }

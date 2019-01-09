@@ -26,7 +26,12 @@ class Panel extends Component {
         let title = details ? details.title : "";
         let mainImage = details ? details.image : "";
         let sectionList = details ? details.sections.map((section) => { 
-            return <section id={section.title} key={section.title}><h3>{section.title ? section.title : ""}</h3><p>{section.text}</p></section>;
+            return <section id={section.title} key={section.title}>
+                        <h3>{section.title ? section.title : ""}</h3>
+                        {section.text ? <p>{section.text}</p> : ""}
+                        {section.link ? <a href={section.link} target="_blank" rel="noopener noreferrer">{section.link}</a> : ""}
+                        {section.image ? <img src={section.image} alt={section.title}/> : ""}
+                   </section>;
         }) : [];
 
         return (
