@@ -4,11 +4,13 @@
   "private": true,
   "homepage": "http://pandaface0513.github.io/hwlo.ca-in-react",
   "dependencies": {
-    "gh-pages": "^2.0.1",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-hint": "^3.2.0",
-    "react-scripts": "2.0.5"
+    "gh-pages": "^6.1.1",
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hint": "^3.2.1",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
